@@ -1,6 +1,6 @@
 "use client";
 
-import { Construction } from "lucide-react";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,9 +15,16 @@ export default function Home() {
       <main className="flex relative z-10 flex-col gap-12 justify-center items-center px-4 py-16 text-center">
         <div className="flex flex-col gap-8 items-center">
           <div className="relative">
-            <div className="absolute inset-0 from-emerald-400 to-blue-500 rounded-full opacity-50 blur-2xl animate-pulse bg-linear-to-r" />
-            <div className="relative p-8 rounded-full border shadow-2xl backdrop-blur-sm bg-white/10 border-white/20">
-              <Construction className="w-16 h-16 text-emerald-400 animate-bounce" />
+            <div className="absolute inset-0 bg-linear-to-r from-emerald-400 to-blue-500 rounded-full blur-3xl opacity-40 animate-pulse" />
+            <div className="relative bg-white/5 backdrop-blur-sm p-6 rounded-3xl border border-white/10 shadow-2xl">
+              <Image
+                src="/assets/images/logo/jibonBD-logo.png"
+                alt="Jibon BD Logo"
+                width={200}
+                height={200}
+                priority
+                className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-contain"
+              />
             </div>
           </div>
 
