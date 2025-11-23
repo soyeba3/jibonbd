@@ -4,31 +4,31 @@ import Image from "next/image";
 export const ProductGrid = () => {
   return (
     <section className="py-12">
-      <div className="flex items-center justify-between mb-8">
-        <h2 className="text-3xl font-bold text-slate-800 relative">
+      <div className="flex justify-between items-center mb-8">
+        <h2 className="relative text-3xl font-bold text-slate-800">
           Featured Products
-          <span className="absolute -bottom-2 left-0 w-1/2 h-1 bg-emerald-500 rounded-full"></span>
+          <span className="absolute left-0 -bottom-2 w-1/2 h-1 bg-emerald-500 rounded-full"></span>
         </h2>
-        <button className="text-emerald-600 font-medium hover:text-emerald-700 transition-colors">
+        <button className="font-medium text-emerald-600 transition-colors hover:text-emerald-700">
           View All &rarr;
         </button>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-6">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:gap-6">
         {productsData.map((product) => (
           <div
             key={product.id}
-            className="group bg-white rounded-xl border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col"
+            className="flex overflow-hidden flex-col bg-white rounded-xl border shadow-sm transition-all duration-300 group border-slate-100 hover:shadow-xl"
           >
-            <div className="relative aspect-square overflow-hidden bg-slate-50">
+            <div className="overflow-hidden relative aspect-square bg-slate-50">
               <Image
                 src={product.image}
                 alt={product.name}
                 fill
-                className="object-contain p-4 group-hover:scale-110 transition-transform duration-500"
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
-              <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                <button className="bg-white p-2 rounded-full shadow-md text-slate-600 hover:text-red-500 transition-colors">
+              <div className="absolute top-2 right-2 opacity-0 transition-opacity group-hover:opacity-100">
+                <button className="p-2 bg-white rounded-full shadow-md transition-colors text-slate-600 hover:text-red-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -47,15 +47,15 @@ export const ProductGrid = () => {
               </div>
             </div>
 
-            <div className="p-4 flex flex-col grow">
-              <h3 className="text-slate-800 font-semibold text-sm md:text-base line-clamp-2 mb-2 grow group-hover:text-emerald-600 transition-colors">
+            <div className="flex flex-col p-4 grow">
+              <h3 className="mb-2 text-sm font-semibold transition-colors text-slate-800 md:text-base line-clamp-2 grow group-hover:text-emerald-600">
                 {product.name}
               </h3>
-              <div className="flex items-center justify-between mt-auto">
+              <div className="flex justify-between items-center mt-auto">
                 <span className="text-lg font-bold text-slate-900">
                   ৳{product.price}
                 </span>
-                <button className="bg-slate-100 hover:bg-emerald-500 hover:text-white text-slate-600 p-2 rounded-lg transition-colors">
+                <button className="p-2 rounded-lg transition-colors bg-slate-100 hover:bg-emerald-500 hover:text-white text-slate-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
