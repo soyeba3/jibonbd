@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Chili Powder",
+    "price": 78,
+    "image": "/assets/images/products/10.png"
+  },
+  {
+    "id": 2,
+    "name": "Chili Powder",
+    "price": 78,
+    "image": "/assets/images/products/10.png"
+  },
+  {
+    "id": 3,
+    "name": "Chili Powder",
+    "price": 78,
+    "image": "/assets/images/products/10.png"
+  },
+  {
+    "id": 4,
+    "name": "Chili Powder",
+    "price": 78,
+    "image": "/assets/images/products/10.png"
+  },
+  {
+    "id": 5,
+    "name": "Chili Powder",
+    "price": 78,
+    "image": "/assets/images/products/10.png"
+  },
+  {
+    "id": 6,
+    "name": "Chili Powder",
+    "price": 78,
+    "image": "/assets/images/products/10.png"
+  },
+  {
+    "id": 7,
+    "name": "Chili Powder",
+    "price": 78,
+    "image": "/assets/images/products/10.png"
+  },
+  {
+    "id": 8,
+    "name": "Chili Powder",
+    "price": 78,
+    "image": "/assets/images/products/10.png"
+  },
+  {
+    "id": 9,
+    "name": "Chili Powder",
+    "price": 78,
+    "image": "/assets/images/products/10.png"
+  },
+  {
+    "id": 10,
+    "name": "Chili Powder",
+    "price": 78,
+    "image": "/assets/images/products/10.png"
+  }
+]
