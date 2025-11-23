@@ -4,50 +4,59 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex overflow-hidden relative justify-center items-center min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-slate-900">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1),transparent_50%)]" />
+    <div className="flex overflow-hidden relative justify-center items-center min-h-screen bg-white">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,0,0,0.02),transparent_50%)]" />
 
       <div className="overflow-hidden absolute inset-0">
-        <div className="absolute -top-1/2 -left-1/2 w-full h-full to-transparent rounded-full blur-3xl animate-pulse bg-linear-to-br from-emerald-500/20" />
-        <div className="absolute -right-1/2 -bottom-1/2 w-full h-full to-transparent rounded-full blur-3xl delay-1000 animate-pulse bg-linear-to-tl from-blue-500/20" />
+        <div className="absolute -top-1/2 -left-1/2 w-full h-full to-transparent rounded-full blur-3xl animate-pulse bg-linear-to-br from-emerald-100/40" />
+        <div className="absolute -right-1/2 -bottom-1/2 w-full h-full to-transparent rounded-full blur-3xl delay-1000 animate-pulse bg-linear-to-tl from-blue-100/40" />
       </div>
 
-      <main className="flex relative z-10 flex-col gap-12 justify-center items-center px-4 py-16 text-center">
-        <div className="flex flex-col gap-8 items-center">
-          <div className="relative">
-            <div className="absolute inset-0 bg-linear-to-r from-emerald-400 to-blue-500 rounded-full blur-3xl opacity-40 animate-pulse" />
-            <div className="relative bg-white/5 backdrop-blur-sm p-6 rounded-3xl border border-white/10 shadow-2xl">
-              <Image
-                src="/assets/images/logo/jibonBD-logo.png"
-                alt="Jibon BD Logo"
-                width={200}
-                height={200}
-                priority
-                className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-contain"
-              />
-            </div>
+      <main className="flex flex-col gap-2 justify-center items-center px-4 py-4 text-center">
+        <div className="flex flex-col gap-2 items-center">
+          <div>
+            <Image
+              src="/assets/images/logo/jibonBD-logo.png"
+              alt="Jibon BD Logo"
+              width={300}
+              height={300}
+              priority
+              className="object-contain w-40 h-40 sm:w-52 sm:h-52 md:w-40 md:h-40"
+            />
           </div>
 
-          <div className="space-y-4">
-            <h1 className="text-6xl font-bold tracking-tight bg-linear-to-r from-emerald-400 via-blue-400 to-emerald-400 bg-clip-text text-transparent sm:text-7xl md:text-8xl lg:text-9xl animate-gradient bg-size-[200%_auto]">
+          <div className="space-y-6 max-w-4xl">
+            <h1 className="text-6xl font-bold tracking-tight bg-linear-to-r from-emerald-600 via-blue-600 to-emerald-600 bg-clip-text text-transparent sm:text-7xl md:text-8xl lg:text-9xl animate-gradient bg-size-[200%_auto] pb-2">
               Jibon BD
             </h1>
-            <div className="mx-auto w-32 h-1 from-transparent via-emerald-400 to-transparent rounded-full bg-linear-to-r" />
+            <div className="mx-auto w-32 h-1.5 from-transparent via-emerald-500 to-transparent rounded-full bg-linear-to-r opacity-80" />
           </div>
 
-          <div className="space-y-3">
-            <p className="text-xl font-light text-slate-300 sm:text-2xl md:text-3xl">
-              This website is under construction
+          <div className="mx-auto space-y-4 max-w-2xl">
+            <p className="text-2xl font-light tracking-wide text-slate-800 sm:text-3xl md:text-4xl">
+              Something extraordinary is coming
             </p>
-            <p className="text-sm text-slate-400 sm:text-base md:text-lg">
-              We&apos;re working hard to bring you something amazing
+            <p className="text-base font-light leading-relaxed text-slate-600 sm:text-lg md:text-xl">
+              We are crafting a digital experience that will redefine your
+              expectations.
+              <br className="hidden sm:block" />
+              Stay tuned for the grand reveal.
             </p>
           </div>
 
-          <div className="flex gap-2 mt-4">
-            <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse" />
-            <div className="w-3 h-3 bg-blue-400 rounded-full delay-200 animate-pulse" />
-            <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse delay-400" />
+          <div className="flex gap-3 mt-8">
+            <div
+              className="w-3 h-3 bg-emerald-500 rounded-full animate-bounce"
+              style={{ animationDelay: "0ms" }}
+            />
+            <div
+              className="w-3 h-3 bg-blue-500 rounded-full animate-bounce"
+              style={{ animationDelay: "150ms" }}
+            />
+            <div
+              className="w-3 h-3 bg-emerald-500 rounded-full animate-bounce"
+              style={{ animationDelay: "300ms" }}
+            />
           </div>
         </div>
       </main>
