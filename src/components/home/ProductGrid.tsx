@@ -18,24 +18,25 @@ export const ProductGrid = () => {
         {productsData.map((product) => (
           <div
             key={product.id}
-            className="flex overflow-hidden flex-col bg-white rounded-xl border shadow-sm transition-all duration-300 group border-slate-100 hover:shadow-xl"
+            className="flex overflow-hidden flex-col bg-white rounded-xl border shadow-sm transition-all duration-300 group border-slate-100 hover:shadow-xl hover:border-emerald-200"
           >
-            <div className="overflow-hidden relative aspect-square bg-slate-50">
+            <div className="flex overflow-hidden relative justify-center items-center p-1.5 md:p-2 h-40 md:h-64 lg:h-72 bg-white">
               <Image
                 src={product.image}
                 alt={product.name}
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                width={200}
+                height={280}
+                className="object-contain w-auto h-full transition-transform duration-500 group-hover:scale-110"
               />
-              <div className="absolute top-2 right-2 opacity-0 transition-opacity group-hover:opacity-100">
-                <button className="p-2 bg-white rounded-full shadow-md transition-colors text-slate-600 hover:text-red-500">
+              <div className="hidden absolute top-2 right-2 opacity-0 transition-opacity md:top-3 md:right-3 group-hover:opacity-100 md:block">
+                <button className="p-1.5 md:p-2 bg-white rounded-full shadow-md transition-colors text-slate-600 hover:text-red-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-5 h-5"
+                    className="w-4 h-4 md:w-5 md:h-5"
                   >
                     <path
                       strokeLinecap="round"
@@ -47,22 +48,28 @@ export const ProductGrid = () => {
               </div>
             </div>
 
-            <div className="flex flex-col p-4 grow">
-              <h3 className="mb-2 text-sm font-semibold transition-colors text-slate-800 md:text-base line-clamp-2 grow group-hover:text-emerald-600">
+            <div className="flex flex-col p-3 md:p-4 grow">
+              <h3 className="mb-0.5 md:mb-1 text-xs md:text-base font-semibold transition-colors text-slate-800 line-clamp-2 group-hover:text-emerald-600">
                 {product.name}
               </h3>
+              <p className="mb-1.5 md:mb-2 text-[10px] md:text-xs text-slate-500">
+                {product.weight}
+                {product.weightUnit}
+              </p>
               <div className="flex justify-between items-center mt-auto">
-                <span className="text-lg font-bold text-slate-900">
-                  ৳{product.price}
-                </span>
-                <button className="p-2 rounded-lg transition-colors bg-slate-100 hover:bg-emerald-500 hover:text-white text-slate-600">
+                <div className="flex flex-col">
+                  <span className="text-base font-bold md:text-xl text-slate-900">
+                    ৳{product.price}
+                  </span>
+                </div>
+                <button className="p-1.5 md:p-2.5 rounded-lg transition-all bg-emerald-50 hover:bg-emerald-500 hover:text-white text-emerald-600 shadow-sm hover:shadow-md">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    strokeWidth={1.5}
+                    strokeWidth={2}
                     stroke="currentColor"
-                    className="w-5 h-5"
+                    className="w-4 h-4 md:w-5 md:h-5"
                   >
                     <path
                       strokeLinecap="round"

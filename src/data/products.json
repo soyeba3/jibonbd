@@ -1,62 +1,82 @@
 [
   {
     "id": 1,
-    "name": "Chili Powder",
+    "name": "মরিচ গুঁড়া/Chili Powder 100gm",
+    "weight": 100,
+    "weightUnit": "gm",
     "price": 78,
-    "image": "/assets/images/products/10.png"
+    "image": "/assets/images/products/chili-powder-100gm.png"
   },
   {
     "id": 2,
-    "name": "Chili Powder",
-    "price": 78,
-    "image": "/assets/images/products/10.png"
+    "name": "হলুদ গুঁড়া/Turmeric Powder 100gm",
+    "weight": 100,
+    "weightUnit": "gm",
+    "price": 75,
+    "image": "/assets/images/products/holud-powder-100gm.png"
   },
   {
     "id": 3,
-    "name": "Chili Powder",
-    "price": 78,
-    "image": "/assets/images/products/10.png"
+    "name": "ধনিয়া গুঁড়া/Coriander Powder 100gm",
+    "weight": 100,
+    "weightUnit": "gm",
+    "price": 60,
+    "image": "/assets/images/products/dhoniya-powder-100gm.png"
   },
   {
     "id": 4,
-    "name": "Chili Powder",
+    "name": "জিরা গুঁড়া/Cumin Powder 100gm",
+    "weight": 100,
+    "weightUnit": "gm",
     "price": 78,
-    "image": "/assets/images/products/10.png"
+    "image": "/assets/images/products/jira-gura.png"
   },
   {
     "id": 5,
-    "name": "Chili Powder",
-    "price": 78,
-    "image": "/assets/images/products/10.png"
+    "name": "গরম মসলা/Garam Masala Powder 40gm",
+    "weight": 40,
+    "weightUnit": "gm",
+    "price": 120,
+    "image": "/assets/images/products/gorom-moshla.png"
   },
   {
-    "id": 6,
-    "name": "Chili Powder",
-    "price": 78,
-    "image": "/assets/images/products/10.png"
+    "id": 5,
+    "name": "গরম মসলা/Garam Masala Powder 100gm",
+    "weight": 100,
+    "weightUnit": "gm",
+    "price": 291,
+    "image": "/assets/images/products/gorom-masala-100gm.png"
   },
   {
     "id": 7,
-    "name": "Chili Powder",
-    "price": 78,
-    "image": "/assets/images/products/10.png"
+    "name": "ঘি/Ghee 500gm",
+    "weight": 500,
+    "weightUnit": "gm",
+    "price": 800,
+    "image": "/assets/images/products/ghee-500gm.png"
   },
   {
     "id": 8,
-    "name": "Chili Powder",
-    "price": 78,
-    "image": "/assets/images/products/10.png"
+    "name": "পাচ ফরন/Panch Foron 100gm",
+    "weight": 100,
+    "weightUnit": "gm",
+    "price": 120,
+    "image": "/assets/images/products/pach-foron.png"
   },
   {
     "id": 9,
-    "name": "Chili Powder",
-    "price": 78,
-    "image": "/assets/images/products/10.png"
+    "name": "সরিষার তেল/Mustard Oil 1 litre",
+    "weight": 1,
+    "weightUnit": "litre",
+    "price": 310,
+    "image": "/assets/images/products/mastard-oil-1-litre.png"
   },
   {
     "id": 10,
-    "name": "Chili Powder",
-    "price": 78,
-    "image": "/assets/images/products/10.png"
+    "name": "সরিষার তেল/Mustard Oil 2 litre",
+    "weight": 2,
+    "weightUnit": "litre",
+    "price": 600,
+    "image": "/assets/images/products/mastard-oil-2-litre.png"
   }
 ]
