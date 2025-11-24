@@ -78,5 +78,13 @@
     "weightUnit": "litre",
     "price": 600,
     "image": "/assets/images/products/mastard-oil-2-litre.png"
+  },
+  {
+    "id": 10,
+    "name": "সরিষার তেল/Mustard Oil 2 litre",
+    "weight": 2,
+    "weightUnit": "litre",
+    "price": 600,
+    "image": "/assets/images/products/combo.png"
   }
 ]
