@@ -5,7 +5,7 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 78,
-    "image": "/assets/images/products/chili-powder-100gm.png"
+    "image": "/assets/images/products/morich-100gm.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 75,
-    "image": "/assets/images/products/holud-powder-100gm.png"
+    "image": "/assets/images/products/holud-100.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 60,
-    "image": "/assets/images/products/dhoniya-powder-100gm.png"
+    "image": "/assets/images/products/dhoniya-100gm.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 78,
-    "image": "/assets/images/products/jira-gura.png"
+    "image": "/assets/images/products/jira-100gm.png"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "weight": 40,
     "weightUnit": "gm",
     "price": 120,
-    "image": "/assets/images/products/gorom-moshla.png"
+    "image": "/assets/images/products/gorom-40gm.png"
   },
   {
     "id": 5,
@@ -45,7 +45,7 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 291,
-    "image": "/assets/images/products/gorom-masala-100gm.png"
+    "image": "/assets/images/products/gorom-40gm.png"
   },
   {
     "id": 7,
@@ -61,7 +61,7 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 120,
-    "image": "/assets/images/products/pach-foron.png"
+    "image": "/assets/images/products/pachforon.png"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "weight": 1,
     "weightUnit": "litre",
     "price": 310,
-    "image": "/assets/images/products/mastard-oil-1-litre.png"
+    "image": "/assets/images/products/tel-1.png"
   },
   {
     "id": 10,
@@ -77,6 +77,14 @@
     "weight": 2,
     "weightUnit": "litre",
     "price": 600,
-    "image": "/assets/images/products/mastard-oil-2-litre.png"
+    "image": "/assets/images/products/tel-2.png"
+  },
+  {
+    "id": 11,
+    "name": "সরিষার তেল/Mustard Oil 5 litre",
+    "weight": 5,
+    "weightUnit": "litre",
+    "price": 1500,
+    "image": "/assets/images/products/tel-5.png"
   }
 ]
