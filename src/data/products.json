@@ -44,7 +44,7 @@
     "name": "গরম মসলা/Garam Masala Powder 100gm",
     "weight": 100,
     "weightUnit": "gm",
-    "price": 291,
+    "price": 290,
     "image": "/assets/images/products/gorom-40gm.png"
   },
   {
@@ -57,10 +57,10 @@
   },
   {
     "id": 8,
-    "name": "পাচ ফরন/Panch Foron 100gm",
-    "weight": 100,
+    "name": "পাচ ফরন/Panch Foron 50gm",
+    "weight": 50,
     "weightUnit": "gm",
-    "price": 120,
+    "price": 35,
     "image": "/assets/images/products/pachforon.png"
   },
   {

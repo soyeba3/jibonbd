@@ -9,9 +9,6 @@ export const ProductGrid = () => {
           Featured Products
           <span className="absolute left-0 -bottom-2 w-1/2 h-1 bg-emerald-500 rounded-full"></span>
         </h2>
-        <button className="font-medium text-emerald-600 transition-colors hover:text-emerald-700">
-          View All &rarr;
-        </button>
       </div>
 
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:gap-6">
