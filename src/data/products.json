@@ -5,7 +5,8 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 78,
-    "image": "/assets/images/products/morich-100gm.png"
+    "image": "/assets/images/products/morich-100gm.png",
+    "description": "/data/descriptions/chili-powder.md"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 75,
-    "image": "/assets/images/products/holud-100.png"
+    "image": "/assets/images/products/holud-100.png",
+    "description": "/data/descriptions/holud-powder.md"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 60,
-    "image": "/assets/images/products/dhoniya-100gm.png"
+    "image": "/assets/images/products/dhoniya-100gm.png",
+    "description": "/data/descriptions/dhania-powder.md"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 78,
-    "image": "/assets/images/products/jira-100gm.png"
+    "image": "/assets/images/products/jira-100gm.png",
+    "description": "/data/descriptions/cumin-powder.md"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "weight": 40,
     "weightUnit": "gm",
     "price": 120,
-    "image": "/assets/images/products/gorom-40gm.png"
+    "image": "/assets/images/products/gorom-40gm.png",
+    "description": "/data/descriptions/garam-masala.md"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "weight": 100,
     "weightUnit": "gm",
     "price": 290,
-    "image": "/assets/images/products/gorom-40gm.png"
+    "image": "/assets/images/products/gorom-40gm.png",
+    "description": "/data/descriptions/garam-masala.md"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "weight": 500,
     "weightUnit": "gm",
     "price": 800,
-    "image": "/assets/images/products/ghee-500gm.png"
+    "image": "/assets/images/products/ghee-500gm.png",
+    "description": "/data/descriptions/ghee.md"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "weight": 50,
     "weightUnit": "gm",
     "price": 35,
-    "image": "/assets/images/products/pachforon.png"
+    "image": "/assets/images/products/pachforon.png",
+    "description": "/data/descriptions/panch-foron.md"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "weight": 1,
     "weightUnit": "litre",
     "price": 310,
-    "image": "/assets/images/products/tel-1.png"
+    "image": "/assets/images/products/tel-1.png",
+    "description": "/data/descriptions/mustard-oil.md"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "weight": 2,
     "weightUnit": "litre",
     "price": 600,
-    "image": "/assets/images/products/tel-2.png"
+    "image": "/assets/images/products/tel-2.png",
+    "description": "/data/descriptions/mustard-oil.md"
   },
   {
     "id": 11,
@@ -85,6 +95,7 @@
     "weight": 5,
     "weightUnit": "litre",
     "price": 1500,
-    "image": "/assets/images/products/tel-5.png"
+    "image": "/assets/images/products/tel-5.png",
+    "description": "/data/descriptions/mustard-oil.md"
   }
 ]

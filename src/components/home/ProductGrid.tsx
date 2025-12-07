@@ -1,19 +1,21 @@
 import productsData from "@/data/products.json";
 import Image from "next/image";
+import Link from "next/link";
 
 export const ProductGrid = () => {
   return (
     <section className="py-12">
       <div className="flex justify-between items-center mb-8">
         <h2 className="relative text-3xl font-bold text-slate-800">
-          Featured Products
+          আমাদের পণ্যসমূহ
           <span className="absolute left-0 -bottom-2 w-1/2 h-1 bg-emerald-500 rounded-full"></span>
         </h2>
       </div>
 
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:gap-6">
         {productsData.map((product) => (
-          <div
+          <Link
+            href={`/product/${product.id}`}
             key={product.id}
             className="flex overflow-hidden flex-col bg-white rounded-xl border shadow-sm transition-all duration-300 group border-slate-100 hover:shadow-xl hover:border-emerald-200"
           >
@@ -77,7 +79,7 @@ export const ProductGrid = () => {
                 </button>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>
