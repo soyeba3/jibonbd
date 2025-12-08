@@ -102,13 +102,6 @@ export default async function ProductDetailPage({ params }: PageProps) {
                   />
                 </div>
 
-                <div className="flex absolute top-6 left-6 z-10">
-                  <span className="inline-flex gap-1.5 items-center px-4 py-2 text-sm font-semibold text-white rounded-full shadow-lg bg-gradient-to-r from-emerald-500 to-teal-500">
-                    <Star className="w-4 h-4 fill-current" />
-                    প্রিমিয়াম কোয়ালিটি
-                  </span>
-                </div>
-
                 <div className="flex absolute right-6 bottom-6 gap-2">
                   <div className="flex gap-2 items-center px-4 py-2 text-sm font-medium rounded-full shadow-lg backdrop-blur-sm bg-white/90 text-slate-700">
                     <Truck className="w-4 h-4 text-emerald-500" />

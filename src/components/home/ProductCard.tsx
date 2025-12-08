@@ -13,8 +13,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
       href={`/product/${product.id}`}
       className="group flex flex-col h-full bg-white rounded-2xl border border-slate-100 transition-all duration-300 hover:border-emerald-200 hover:shadow-xl hover:shadow-emerald-50/40 relative overflow-hidden"
     >
-      {/* Image Section */}
-      <div className="relative aspect-[5/6] overflow-hidden bg-slate-50/50 m-2 rounded-xl group-hover:bg-emerald-50/30 transition-colors duration-300">
+      <div className="relative aspect-5/6 overflow-hidden bg-slate-50/50 m-2 rounded-xl group-hover:bg-emerald-50/30 transition-colors duration-300">
         <Image
           src={product.image}
           alt={product.name}
@@ -22,19 +21,8 @@ export const ProductCard = ({ product }: ProductCardProps) => {
           className="object-contain p-4 transition-transform duration-700 group-hover:scale-110"
           sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
         />
-
-        {/* Premium Indicator */}
-        <div className="absolute top-3 left-3">
-          <div className="flex items-center gap-1.5 px-2.5 py-1 bg-white/80 backdrop-blur-sm rounded-full border border-slate-100 shadow-sm">
-            <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-            <span className="text-[10px] font-bold tracking-wider text-slate-600 uppercase">
-              Premium
-            </span>
-          </div>
-        </div>
       </div>
 
-      {/* Content Section */}
       <div className="flex flex-col grow px-4 pb-4 pt-1">
         <div className="mb-1 text-[11px] font-bold tracking-wide text-emerald-600/80 uppercase">
           {product.weight} {product.weightUnit}
